@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+header {
+  background-color: #ba34db;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ba34db;
+}
+
+h {
+  color: #ba34db;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.team-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-card {
+  width: 150px;
+  height: 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.team-card img {
+  width: 150px;
+  height: auto;
+}
+
+.team-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.competitors-list {
+  list-style: disc;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-container {
+  display: grid;
+  gap: 10px;
+  text-align: center;
+}
