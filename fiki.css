@@ -29,6 +29,7 @@ h1 {
 
 section {
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 h2 {
@@ -78,13 +79,18 @@ li {
 
 .competitors-list {
   list-style: disc;
-  text-align: left;
   max-width: 800px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .text-container {
   display: grid;
   gap: 10px;
   text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
 }
