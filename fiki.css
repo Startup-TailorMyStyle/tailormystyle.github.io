@@ -1,3 +1,106 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,40 +109,53 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f8f8f8;
+  background-color: #f3f3f3;
 }
 
 .container {
   width: 80%;
-  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
 header {
-  background-color: #ba34db;
-  color: #fff;
+  background-color: #fff;
+  padding: 20px 0px;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  padding: 10px;
 }
 
 h1 {
+  color: #111;
   margin: 0;
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 section {
-  margin-bottom: 20px;
-  margin-left: 15px;
+  padding: 3% 8%;
 }
 
 h2 {
-  color: #ba34db;
+  color: #111;
+  padding: 30px 20px;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-h {
-  color: #ba34db;
+p {
+  color: #111;
+  font-family: Garamond;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
+/*TEAM*/
 ul {
   list-style: none;
   padding: 0;
@@ -63,7 +179,7 @@ li {
   padding: 10px;
   margin: 5px;
   text-align: center;
-  background-color: #fff;
+  background-color: #1E2575;
 }
 
 .team-card img {
@@ -71,17 +187,21 @@ li {
   height: auto;
 }
 
-.team-card h3 {
-  margin: 10px 0;
-  font-size: 18px;
-  color: #333;
+.text-container p {
+  color: #f3f3f3;
+  font-family: Garamond;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
 }
 
-.competitors-list {
-  list-style: disc;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
+.text-container h3 {
+  color: #f3f3f3;
+  font-family: Garamond;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .text-container {
@@ -90,7 +210,43 @@ li {
   text-align: center;
 }
 
-p {
-  text-align: justify;
-  text-justify: inter-word;
+.problem-solution {
+  background-color: #E0E4EB;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
+
+.problem-solution-text {
+  width: 60cap;
+}
+
+.team {
+
+}
+
+.customer-segments {
+  background-color: #E0E4EB;
+  margin: 0 auto;
+}
+
+.competition{
+
+}
+
+.key-metrics {
+  background-color: #E0E4EB;
+  margin: 0 auto;
+}
+
+.cost-structure{
+
+}
+
+.revenue-streams {
+  background-color: #E0E4EB;
+  margin: 0 auto;
 }
