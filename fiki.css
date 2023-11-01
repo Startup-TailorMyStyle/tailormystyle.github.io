@@ -224,6 +224,11 @@ li {
   width: 60cap;
 }
 
+.problem-solution-image img {
+  width: 400px;
+  height: 400px;
+}
+
 .team {
 
 }
@@ -231,22 +236,92 @@ li {
 .customer-segments {
   background-color: #E0E4EB;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
+
+.customer-segments-text {
+  width: 60cap;
+}
+
+.customer-segments-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .competition{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
 
+.competition-text {
+  width: 60cap;
+}
+
+.competition-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .key-metrics {
   background-color: #E0E4EB;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
+
+.key-metrics-text {
+  width: 60cap;
+}
+
+.key-metrics-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .cost-structure{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
 
+.cost-structure-text {
+  width: 60cap;
+}
+
+.cost-structure-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .revenue-streams {
   background-color: #E0E4EB;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
+
+.revenue-streams-text {
+  width: 60cap;
+}
+
+.revenue-streams-image img {
+  width: 400px;
+  height: 400px;
 }
