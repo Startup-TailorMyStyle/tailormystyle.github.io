@@ -325,3 +325,52 @@ li {
   width: 400px;
   height: 400px;
 }
+
+.customer-discovery-text p {
+  padding: 10px 20px;
+}
+
+.customer-discovery-conv-1 {
+  display: flex;
+  margin: 0, auto;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.customer-discovery-conv-2 {
+  display: flex;
+  margin: 0, auto;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.customer-discovery-conv-3 {
+  display: flex;
+  margin: 0, auto;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.customer-discovery-conv-4 {
+  display: flex;
+  margin: 0, auto;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+}
+
+.customer-discovery-conv-5 {
+  display: flex;
+  margin: 0, auto;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: baseline;
+}
