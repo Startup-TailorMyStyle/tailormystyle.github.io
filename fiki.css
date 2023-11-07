@@ -162,7 +162,8 @@ ul {
 }
 
 li {
-  margin-bottom: 5px;
+  width: 33.33%;
+  margin-bottom: 20px;
 }
 
 .team-list {
@@ -173,7 +174,7 @@ li {
 }
 
 .team-card {
-  width: 150px;
+  width: 200px;
   height: 250px;
   border: 1px solid #ddd;
   padding: 10px;
