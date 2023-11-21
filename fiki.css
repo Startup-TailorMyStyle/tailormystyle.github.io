@@ -448,3 +448,7 @@ li {
   align-content: space-around;
   gap: 30px;
 }
+
+.diagram-image img{
+  width: 800px;
+}
