@@ -438,3 +438,13 @@ li {
   width: 400px;
   height: 400px;
 }
+
+.user-persona {
+  background-color: #E0E4EB;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  gap: 30px;
+}
