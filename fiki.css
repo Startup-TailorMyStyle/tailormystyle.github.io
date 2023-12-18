@@ -452,3 +452,9 @@ li {
 .diagram-image img{
   width: 800px;
 }
+
+.bordered-box {
+  border: 1px solid #888888;
+  padding: 10px;
+  margin: 10px 0;
+}
