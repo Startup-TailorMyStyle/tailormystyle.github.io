@@ -434,6 +434,18 @@ li {
   width: 60cap;
 }
 
+.mvp-page-text {
+  width: 60cap;
+}
+
+.mvp-image {
+  text-align: center; 
+}
+
+.mvp-image img{
+  width: 200px;
+}
+
 .landing-page-image img{
   width: 400px;
   height: 400px;
